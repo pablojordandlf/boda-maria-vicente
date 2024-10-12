@@ -2,27 +2,20 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Comunidad',
+    description: 'Únete a una red de profesionales del marketing que comparten ideas, colaboran en proyectos y se impulsan mutuamente hacia el éxito como profesionales.'
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Banco de Talento',
+    description: 'Accede a un grupo en el que compartiremos ofertas y profesionales para poder tener a los mejores en tus proyectos o, directamente, para unirte a nuevos retos.',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Eventos exclusivos',
+    description: 'Encuentros en los que aprender y conectar con profesionales como tú para inspirarnos y segur creciendo en este área tan apasionante.',
   },
 ];
 

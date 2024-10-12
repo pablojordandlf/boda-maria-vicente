@@ -10,6 +10,14 @@
   scroll-behavior: smooth;
 }
 
+.bg-dark-blue {
+  background-color: #00205B;
+}
+
+.text-orange {
+  color: #FF914D
+}
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
