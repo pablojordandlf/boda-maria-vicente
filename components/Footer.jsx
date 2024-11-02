@@ -14,7 +14,6 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-center flex-wrap gap-5">
-        
         <a href="https://forms.gle/RD7xqVXZqUrEUCEw5" target="_blank" rel="noopener noreferrer">
           <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
             <img
@@ -27,12 +26,10 @@ const Footer = () => (
             </span>
           </button>
         </a>
-
       </div>
 
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
             Marketeam
