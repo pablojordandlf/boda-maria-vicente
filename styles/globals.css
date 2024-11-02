@@ -113,3 +113,19 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.text-container {
+  color: white;
+  font-size: 2.25rem; /* Default size for larger screens */
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    font-size: 1.1rem; /* Smaller size for smartphone screens */
+    margin-left: 1rem; /* Adjusted margin for smaller screens */
+    margin-right: 1rem;
+    line-height: 1.4; /* Improve readability */
+  }
+}

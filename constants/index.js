@@ -42,17 +42,21 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/Julia.jpeg',
     title: 'Julia Sánchez',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    subtitle: "Marketing Manager for Spain & LATAM - Teamtailor",
+    text1:
+      "Soy una apasionada de la comunicación y creo firmemente que nunca dejamos de aprender. Por eso, me considero una persona curiosa y con ganas de descubrir nuevas formas de llegar a las personas mediante los mensajes correctos y poder transmitir así lo mejor de Teamtailor.",
+    text2: 
+      "Además de mi Doble Titulación en Relaciones Internacionales con Traducción e Interpretación, del Máster en Comunicación Corporativa e Institucional y de todo lo que me gusta mi trabajo, puedo decir que me encanta salir a correr (sí soy de esas que se mide mucho los tiempos), leer y el buen cine.",
     href: "https://marketeam.vercel.app/",
   },
   {
     imgUrl: '/planet-07.png',
     title: 'Ana Navarrina',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+    subtitle: '',
+    text1: "",
+    text2: "",
     href: "https://marketeam.vercel.app/",
   },
 ];

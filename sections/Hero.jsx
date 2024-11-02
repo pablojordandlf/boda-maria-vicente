@@ -6,7 +6,7 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings} sm:pl-16 pl-3`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -24,19 +24,16 @@ const Hero = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        
-        <div className="flex justify-center items-center flex-col relative z-10 text-white text-4xl lg:text-3xl mt-10">
+        <div className="text-container flex justify-center items-center flex-col relative z-10 text-white text-center text-4xl lg:text-3xl mt-10 lg:mx-8">
           La Comunidad de Marketers en la que sí quieres estar
         </div>
 
-        <a href="https://marketeam.vercel.app/">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <img
-              src="/stamp.png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
-            />
-          </div>
+        <a href="https://forms.gle/RD7xqVXZqUrEUCEw5" className="w-full flex justify-center mt-4">
+          <img
+            src="/form.png"
+            alt="stamp"
+            className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+          />
         </a>
       </motion.div>
     </motion.div>
