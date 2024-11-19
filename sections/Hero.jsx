@@ -30,7 +30,7 @@ const Hero = () => (
 
         <a href="https://forms.gle/RD7xqVXZqUrEUCEw5" className="w-full flex justify-center mt-4">
           <img
-            src="/form.png"
+            src="/joinus.png"
             alt="stamp"
             className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
           />
