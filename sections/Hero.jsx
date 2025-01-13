@@ -25,7 +25,7 @@ const Hero = () => (
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div className="text-container flex justify-center items-center flex-col relative z-10 text-white text-center text-4xl lg:text-3xl mt-10 lg:mx-8">
-          La Comunidad de Marketers en la que sí quieres estar
+          La boda
         </div>
 
         <a href="https://forms.gle/RD7xqVXZqUrEUCEw5" className="w-full flex justify-center mt-4">
